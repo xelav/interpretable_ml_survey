@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
@@ -7,33 +7,141 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
-\bibitem{Berkutov}
-\selectlanguageifdefined{russian}
-\BibEmph{Беркутов,~А.М.} Системы комплекстной
-  электромагнитотерапии~/ А.М.~Беркутов. ---
-\newblock М.: Бином, 2000.
+\bibitem{madsen_post-hoc_2021}
+\selectlanguageifdefined{english}
+\BibEmph{Madsen,~Andreas}. Post-hoc {Interpretability} for {Neural} {NLP}: {A}
+  {Survey}~/ Andreas~Madsen, Siva~Reddy, Sarath~Chandar~//
+  \BibEmph{arXiv:2108.04840 [cs]}. ---
+\newblock 2021. --- \bblaug{}. ---
+\newblock arXiv: 2108.04840. \BibUrl{ http://arxiv.org/abs/2108.04840}.
 
-\bibitem{Zolotuhina_Ulaschik}
-\selectlanguageifdefined{russian}
-\BibEmph{И.Е.~Золотухина,~В.С.~Улащик}. Основы
-  импульсной магнитотерапии~/
-  В.С.~Улащик~И.Е.~Золотухина. ---
-\newblock Витебск: Витебская областная
-  типография, 2008.
+\bibitem{lipton_mythos_2018}
+\selectlanguageifdefined{english}
+\BibEmph{Lipton,~Zachary~C.} The mythos of model interpretability~/
+  Zachary~C.~Lipton~// \BibEmph{Communications of the ACM}. ---
+\newblock 2018. --- \bblsep{}. ---
+\newblock Vol.~61, no.~10. ---
+\newblock Pp.~36--43. \BibUrl{ https://doi.org/10.1145/3233231}.
 
-\bibitem{Ulaschik_Physio}
-\selectlanguageifdefined{russian}
-\BibEmph{Улащик,~В.С.} Физиотерапия.
-  Универсальная медицинская энциклопедия~/
-  В.С.~Улащик. ---
-\newblock Минск: Книжный дом, 2008.
+\bibitem{alshargi_concept2vec_2020}
+\selectlanguageifdefined{english}
+Concept2vec: {Metrics} for {Evaluating} {Quality} of {Embeddings} for
+  {Ontological} {Concepts}~/ Faisal~Alshargi, Saeedeh~Shekarpour, Tommaso~Soru,
+  Amit~Sheth~// \BibEmph{arXiv:1803.04488 [cs]}. ---
+\newblock 2020. --- \bblmay{}. ---
+\newblock arXiv: 1803.04488. \BibUrl{ http://arxiv.org/abs/1803.04488}.
 
-\bibitem{Gular_Limpanskiy}
-\selectlanguageifdefined{russian}
-\BibEmph{С.А.~Гуляр,~Ю.П.~Лиманский}. Постоянные
-  магнитные поля и их применение в
-  медицине~/ Ю.П.~Лиманский~С.А.~Гуляр. ---
-\newblock Киев: Ин-т физиол. им. А.А. Богомольца
-  НАН Украины, 2006.
+\bibitem{alatrish_building_2014}
+\selectlanguageifdefined{en}
+\BibEmph{Alatrish,~Emhimed}. Building ontologies for different natural
+  languages~/ Emhimed~Alatrish, Dusan~Tosic, Nikola~Milenkovic~//
+  \BibEmph{Computer Science and Information Systems}. ---
+\newblock 2014. ---
+\newblock Vol.~11, no.~2. ---
+\newblock Pp.~623--644. \BibUrl{
+  http://www.doiserbia.nb.rs/Article.aspx?ID=1820-02141400023A}.
+
+\bibitem{hutchison_dbpedia_2007}
+\selectlanguageifdefined{en}
+{DBpedia}: {A} {Nucleus} for a {Web} of {Open} {Data}~/ Sören~Auer,
+  Christian~Bizer, Georgi~Kobilarov at al.~// The {Semantic} {Web}~/ edited
+  byDavid~Hutchison, Takeo~Kanade, Josef~Kittler at al. ---
+\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2007. ---
+\newblock Vol.~4825. ---
+\newblock Pp.~722--735. ---
+\newblock Series Title: Lecture Notes in Computer Science. \BibUrl{
+  http://link.springer.com/10.1007/978-3-540-76298-0_52}.
+
+\bibitem{doshi-velez_towards_2017}
+\selectlanguageifdefined{english}
+\BibEmph{Doshi-Velez,~Finale}. Towards {A} {Rigorous} {Science} of
+  {Interpretable} {Machine} {Learning}~/ Finale~Doshi-Velez, Been~Kim~//
+  \BibEmph{arXiv:1702.08608 [cs, stat]}. ---
+\newblock 2017. --- \bblmar{}. ---
+\newblock arXiv: 1702.08608. \BibUrl{ http://arxiv.org/abs/1702.08608}.
+
+\bibitem{lai_ontology-based_2020}
+\selectlanguageifdefined{english}
+Ontology-based {Interpretable} {Machine} {Learning} for {Textual} {Data}~/
+  Phung~Lai, NhatHai~Phan, Han~Hu et~al.~// \BibEmph{arXiv:2004.00204 [cs,
+  stat]}. ---
+\newblock 2020. --- \bblmar{}. ---
+\newblock arXiv: 2004.00204. \BibUrl{ http://arxiv.org/abs/2004.00204}.
+
+\bibitem{cheng_improving_2020}
+\selectlanguageifdefined{english}
+Improving {Disentangled} {Text} {Representation} {Learning} with
+  {Information}-{Theoretic} {Guidance}~/ Pengyu~Cheng, Martin~Renqiang~Min,
+  Dinghan~Shen et~al.~// \BibEmph{arXiv:2006.00693 [cs, stat]}. ---
+\newblock 2020. --- \bbljun{}. ---
+\newblock arXiv: 2006.00693. \BibUrl{ http://arxiv.org/abs/2006.00693}.
+
+\bibitem{zhang_disentangling_2021}
+\selectlanguageifdefined{english}
+\BibEmph{Zhang,~Xiongyi}. Disentangling {Representations} of {Text} by
+  {Masking} {Transformers}~/ Xiongyi~Zhang, Jan-Willem~van~de~Meent,
+  Byron~C.~Wallace~// \BibEmph{arXiv:2104.07155 [cs]}. ---
+\newblock 2021. --- \bblsep{}. ---
+\newblock arXiv: 2104.07155. \BibUrl{ http://arxiv.org/abs/2104.07155}.
+
+\bibitem{bolukbasi_interpretability_2021}
+\selectlanguageifdefined{english}
+An {Interpretability} {Illusion} for {BERT}~/ Tolga~Bolukbasi, Adam~Pearce,
+  Ann~Yuan et~al.~// \BibEmph{arXiv:2104.07143 [cs]}. ---
+\newblock 2021. --- \bblapr{}. ---
+\newblock arXiv: 2104.07143. \BibUrl{ http://arxiv.org/abs/2104.07143}.
+
+\bibitem{shekarpour_cevo_2018}
+\selectlanguageifdefined{english}
+{CEVO}: {Comprehensive} {EVent} {Ontology} {Enhancing} {Cognitive}
+  {Annotation}~/ Saeedeh~Shekarpour, Faisal~Alshargi, Valerie~Shalin et~al.~//
+  \BibEmph{arXiv:1701.05625 [cs]}. ---
+\newblock 2018. --- \bbloct{}. ---
+\newblock arXiv: 1701.05625 version: 2. \BibUrl{
+  http://arxiv.org/abs/1701.05625}.
+
+\bibitem{paccanaro_learning_2000}
+\selectlanguageifdefined{english}
+\BibEmph{Paccanaro,~Alberto}. Learning distributed representations of concepts
+  from relational data using linear relational embedd~/ Alberto~Paccanaro,
+  G.~Hinton~// \BibEmph{IEEE Transactions on Knowledge and Data Engineering -
+  TKDE}. ---
+\newblock 2000. --- \bbljan{}.
+
+\bibitem{he_interpretable_2021}
+\selectlanguageifdefined{english}
+\BibEmph{HE,~Shilin}. Interpretable {NLP}. ---
+\newblock 2021. --- \bblnov{}. ---
+\newblock original-date: 2019-07-11T01:35:34Z. \BibUrl{
+  https://github.com/ShilinHe/interpretableNLP}.
+
+\bibitem{pruthi_learning_2020}
+\selectlanguageifdefined{english}
+Learning to {Deceive} with {Attention}-{Based} {Explanations}~/ Danish~Pruthi,
+  Mansi~Gupta, Bhuwan~Dhingra et~al.~// \BibEmph{arXiv:1909.07913 [cs]}. ---
+\newblock 2020. --- \bblapr{}. ---
+\newblock arXiv: 1909.07913. \BibUrl{ http://arxiv.org/abs/1909.07913}.
+
+\bibitem{he_deberta_2021}
+\selectlanguageifdefined{english}
+{DeBERTa}: {Decoding}-enhanced {BERT} with {Disentangled} {Attention}~/
+  Pengcheng~He, Xiaodong~Liu, Jianfeng~Gao, Weizhu~Chen~//
+  \BibEmph{arXiv:2006.03654 [cs]}. ---
+\newblock 2021. --- \bbloct{}. ---
+\newblock arXiv: 2006.03654. \BibUrl{ http://arxiv.org/abs/2006.03654}.
+
+\bibitem{wu_polyjuice_2021}
+\selectlanguageifdefined{english}
+Polyjuice: {Generating} {Counterfactuals} for {Explaining}, {Evaluating}, and
+  {Improving} {Models}~/ Tongshuang~Wu, Marco~Tulio~Ribeiro, Jeffrey~Heer,
+  Daniel~S.~Weld~// \BibEmph{arXiv:2101.00288 [cs]}. ---
+\newblock 2021. --- \bbljun{}. ---
+\newblock arXiv: 2101.00288. \BibUrl{ http://arxiv.org/abs/2101.00288}.
+
+\bibitem{molnar_interpretable_nodate}
+\selectlanguageifdefined{english}
+\BibEmph{Molnar,~Christoph}. Interpretable {Machine} {Learning}~/
+  Christoph~Molnar. \BibUrl{
+  https://christophm.github.io/interpretable-ml-book/index.html}.
 
 \end{thebibliography}
