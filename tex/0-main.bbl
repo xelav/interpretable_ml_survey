@@ -7,7 +7,15 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
-\bibitem{madsen_post-hoc_2021}
+\bibitem{doshi-velezRigorousScienceInterpretable2017}
+\selectlanguageifdefined{english}
+\BibEmph{Doshi-Velez,~Finale}. Towards {A} {Rigorous} {Science} of
+  {Interpretable} {Machine} {Learning}~/ Finale~Doshi-Velez, Been~Kim~//
+  \BibEmph{arXiv:1702.08608 [cs, stat]}. ---
+\newblock 2017. --- \bblmar{}. ---
+\newblock arXiv: 1702.08608. \BibUrl{ http://arxiv.org/abs/1702.08608}.
+
+\bibitem{madsenPosthocInterpretabilityNeural2021}
 \selectlanguageifdefined{english}
 \BibEmph{Madsen,~Andreas}. Post-hoc {Interpretability} for {Neural} {NLP}: {A}
   {Survey}~/ Andreas~Madsen, Siva~Reddy, Sarath~Chandar~//
@@ -15,7 +23,7 @@
 \newblock 2021. --- \bblaug{}. ---
 \newblock arXiv: 2108.04840. \BibUrl{ http://arxiv.org/abs/2108.04840}.
 
-\bibitem{lipton_mythos_2018}
+\bibitem{liptonMythosModelInterpretability2018}
 \selectlanguageifdefined{english}
 \BibEmph{Lipton,~Zachary~C.} The mythos of model interpretability~/
   Zachary~C.~Lipton~// \BibEmph{Communications of the ACM}. ---
@@ -23,7 +31,154 @@
 \newblock Vol.~61, no.~10. ---
 \newblock Pp.~36--43. \BibUrl{ https://doi.org/10.1145/3233231}.
 
-\bibitem{alshargi_concept2vec_2020}
+\bibitem{baehrensHowExplainIndividual2009}
+\selectlanguageifdefined{english}
+How to {Explain} {Individual} {Classification} {Decisions}~/ David~Baehrens,
+  Timon~Schroeter, Stefan~Harmeling et~al.~// \BibEmph{arXiv:0912.1128 [cs,
+  stat]}. ---
+\newblock 2009. --- \bbldec{}. ---
+\newblock arXiv: 0912.1128. \BibUrl{ http://arxiv.org/abs/0912.1128}.
+
+\bibitem{shrikumarLearningImportantFeatures2019}
+\selectlanguageifdefined{english}
+\BibEmph{Shrikumar,~Avanti}. Learning {Important} {Features} {Through}
+  {Propagating} {Activation} {Differences}~/ Avanti~Shrikumar,
+  Peyton~Greenside, Anshul~Kundaje~// \BibEmph{arXiv:1704.02685 [cs]}. ---
+\newblock 2019. --- \bbloct{}. ---
+\newblock arXiv: 1704.02685. \BibUrl{ http://arxiv.org/abs/1704.02685}.
+
+\bibitem{ribeiroWhyShouldTrust2016}
+\selectlanguageifdefined{english}
+\BibEmph{Ribeiro,~Marco~Tulio}. "{Why} {Should} {I} {Trust} {You}?":
+  {Explaining} the {Predictions} of {Any} {Classifier}~/ Marco~Tulio~Ribeiro,
+  Sameer~Singh, Carlos~Guestrin~// \BibEmph{arXiv:1602.04938 [cs, stat]}. ---
+\newblock 2016. --- \bblaug{}. ---
+\newblock arXiv: 1602.04938. \BibUrl{ http://arxiv.org/abs/1602.04938}.
+
+\bibitem{lundbergUnifiedApproachInterpreting2017}
+\selectlanguageifdefined{english}
+\BibEmph{Lundberg,~Scott}. A {Unified} {Approach} to {Interpreting} {Model}
+  {Predictions}~/ Scott~Lundberg, Su-In~Lee~// \BibEmph{arXiv:1705.07874 [cs,
+  stat]}. ---
+\newblock 2017. --- \bblnov{}. ---
+\newblock arXiv: 1705.07874. \BibUrl{ http://arxiv.org/abs/1705.07874}.
+
+\bibitem{pruthiLearningDeceiveAttentionBased2020a}
+\selectlanguageifdefined{english}
+Learning to {Deceive} with {Attention}-{Based} {Explanations}~/ Danish~Pruthi,
+  Mansi~Gupta, Bhuwan~Dhingra et~al.~// Proceedings of the 58th {Annual}
+  {Meeting} of the {Association} for {Computational} {Linguistics}. ---
+\newblock Online: Association for Computational Linguistics, 2020. ---
+  \bbljul{}. ---
+\newblock Pp.~4782--4793. \BibUrl{ https://aclanthology.org/2020.acl-main.432}.
+
+\bibitem{slackFoolingLIMESHAP2020}
+\selectlanguageifdefined{english}
+Fooling {LIME} and {SHAP}: {Adversarial} {Attacks} on {Post} hoc {Explanation}
+  {Methods}~/ Dylan~Slack, Sophie~Hilgard, Emily~Jia et~al.~//
+  \BibEmph{arXiv:1911.02508 [cs, stat]}. ---
+\newblock 2020. --- \bblfeb{}. ---
+\newblock arXiv: 1911.02508. \BibUrl{ http://arxiv.org/abs/1911.02508}.
+
+\bibitem{millerExplanationArtificialIntelligence2019}
+\selectlanguageifdefined{en}
+\BibEmph{Miller,~Tim}. Explanation in artificial intelligence: {Insights} from
+  the social sciences~/ Tim~Miller~// \BibEmph{Artificial Intelligence}. ---
+\newblock 2019. --- \bblfeb{}. ---
+\newblock Vol. 267. ---
+\newblock Pp.~1--38. \BibUrl{
+  https://linkinghub.elsevier.com/retrieve/pii/S0004370218305988}.
+
+\bibitem{ebrahimiHotFlipWhiteBoxAdversarial2018}
+\selectlanguageifdefined{english}
+{HotFlip}: {White}-{Box} {Adversarial} {Examples} for {Text} {Classification}~/
+  Javid~Ebrahimi, Anyi~Rao, Daniel~Lowd, Dejing~Dou~//
+  \BibEmph{arXiv:1712.06751 [cs]}. ---
+\newblock 2018. --- \bblmay{}. ---
+\newblock arXiv: 1712.06751. \BibUrl{ http://arxiv.org/abs/1712.06751}.
+
+\bibitem{ribeiroSemanticallyEquivalentAdversarial2018}
+\selectlanguageifdefined{english}
+\BibEmph{Ribeiro,~Marco~Tulio}. Semantically {Equivalent} {Adversarial} {Rules}
+  for {Debugging} {NLP} models~/ Marco~Tulio~Ribeiro, Sameer~Singh,
+  Carlos~Guestrin~// Proceedings of the 56th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics} ({Volume} 1: {Long}
+  {Papers}). ---
+\newblock Melbourne, Australia: Association for Computational Linguistics,
+  2018. --- \bbljul{}. ---
+\newblock Pp.~856--865. \BibUrl{ https://aclanthology.org/P18-1079}.
+
+\bibitem{liBERTATTACKAdversarialAttack2020}
+\selectlanguageifdefined{english}
+{BERT}-{ATTACK}: {Adversarial} {Attack} {Against} {BERT} {Using} {BERT}~/
+  Linyang~Li, Ruotian~Ma, Qipeng~Guo et~al.~// \BibEmph{arXiv:2004.09984 [cs]}.
+  ---
+\newblock 2020. --- \bbloct{}. ---
+\newblock arXiv: 2004.09984. \BibUrl{ http://arxiv.org/abs/2004.09984}.
+
+\bibitem{wuPolyjuiceGeneratingCounterfactuals2021}
+\selectlanguageifdefined{english}
+Polyjuice: {Generating} {Counterfactuals} for {Explaining}, {Evaluating}, and
+  {Improving} {Models}~/ Tongshuang~Wu, Marco~Tulio~Ribeiro, Jeffrey~Heer,
+  Daniel~S.~Weld~// \BibEmph{arXiv:2101.00288 [cs]}. ---
+\newblock 2021. --- \bbljun{}. ---
+\newblock arXiv: 2101.00288. \BibUrl{ http://arxiv.org/abs/2101.00288}.
+
+\bibitem{rossExplainingNLPModels2021}
+\selectlanguageifdefined{english}
+\BibEmph{Ross,~Alexis}. Explaining {NLP} {Models} via {Minimal} {Contrastive}
+  {Editing} ({MiCE})~/ Alexis~Ross, Ana~Marasović, Matthew~E.~Peters~//
+  \BibEmph{arXiv:2012.13985 [cs]}. ---
+\newblock 2021. --- \bbljun{}. ---
+\newblock arXiv: 2012.13985. \BibUrl{ http://arxiv.org/abs/2012.13985}.
+
+\bibitem{hanExplainingBlackBox2020}
+\selectlanguageifdefined{english}
+\BibEmph{Han,~Xiaochuang}. Explaining {Black} {Box} {Predictions} and
+  {Unveiling} {Data} {Artifacts} through {Influence} {Functions}~/
+  Xiaochuang~Han, Byron~C.~Wallace, Yulia~Tsvetkov~// Proceedings of the 58th
+  {Annual} {Meeting} of the {Association} for {Computational} {Linguistics}.
+  ---
+\newblock Online: Association for Computational Linguistics, 2020. ---
+  \bbljul{}. ---
+\newblock Pp.~5553--5563. \BibUrl{ https://aclanthology.org/2020.acl-main.492}.
+
+\bibitem{rajaniExplainYourselfLeveraging2019}
+\selectlanguageifdefined{english}
+Explain {Yourself}! {Leveraging} {Language} {Models} for {Commonsense}
+  {Reasoning}~/ Nazneen~Fatema~Rajani, Bryan~McCann, Caiming~Xiong,
+  Richard~Socher~// Proceedings of the 57th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics}. ---
+\newblock Florence, Italy: Association for Computational Linguistics, 2019. ---
+  \bbljul{}. ---
+\newblock Pp.~4932--4942. \BibUrl{ https://aclanthology.org/P19-1487}.
+
+\bibitem{latcinnikExplainingQuestionAnswering2020}
+\selectlanguageifdefined{english}
+\BibEmph{Latcinnik,~Veronica}. Explaining {Question} {Answering} {Models}
+  through {Text} {Generation}~/ Veronica~Latcinnik, Jonathan~Berant~//
+  \BibEmph{arXiv:2004.05569 [cs]}. ---
+\newblock 2020. --- \bblapr{}. ---
+\newblock arXiv: 2004.05569. \BibUrl{ http://arxiv.org/abs/2004.05569}.
+
+\bibitem{liVisualizingUnderstandingNeural2016}
+\selectlanguageifdefined{english}
+Visualizing and {Understanding} {Neural} {Models} in {NLP}~/ Jiwei~Li,
+  Xinlei~Chen, Eduard~Hovy, Dan~Jurafsky~// Proceedings of the 2016
+  {Conference} of the {North} {American} {Chapter} of the {Association} for
+  {Computational} {Linguistics}: {Human} {Language} {Technologies}. ---
+\newblock San Diego, California: Association for Computational Linguistics,
+  2016. --- \bbljun{}. ---
+\newblock Pp.~681--691. \BibUrl{ https://aclanthology.org/N16-1082}.
+
+\bibitem{muCompositionalExplanationsNeurons2021}
+\selectlanguageifdefined{english}
+\BibEmph{Mu,~Jesse}. Compositional {Explanations} of {Neurons}~/ Jesse~Mu,
+  Jacob~Andreas~// \BibEmph{arXiv:2006.14032 [cs, stat]}. ---
+\newblock 2021. --- \bblfeb{}. ---
+\newblock arXiv: 2006.14032. \BibUrl{ http://arxiv.org/abs/2006.14032}.
+
+\bibitem{alshargiConcept2vecMetricsEvaluating2020}
 \selectlanguageifdefined{english}
 Concept2vec: {Metrics} for {Evaluating} {Quality} of {Embeddings} for
   {Ontological} {Concepts}~/ Faisal~Alshargi, Saeedeh~Shekarpour, Tommaso~Soru,
@@ -31,7 +186,7 @@ Concept2vec: {Metrics} for {Evaluating} {Quality} of {Embeddings} for
 \newblock 2020. --- \bblmay{}. ---
 \newblock arXiv: 1803.04488. \BibUrl{ http://arxiv.org/abs/1803.04488}.
 
-\bibitem{alatrish_building_2014}
+\bibitem{alatrishBuildingOntologiesDifferent2014}
 \selectlanguageifdefined{en}
 \BibEmph{Alatrish,~Emhimed}. Building ontologies for different natural
   languages~/ Emhimed~Alatrish, Dusan~Tosic, Nikola~Milenkovic~//
@@ -41,7 +196,7 @@ Concept2vec: {Metrics} for {Evaluating} {Quality} of {Embeddings} for
 \newblock Pp.~623--644. \BibUrl{
   http://www.doiserbia.nb.rs/Article.aspx?ID=1820-02141400023A}.
 
-\bibitem{hutchison_dbpedia_2007}
+\bibitem{auerDBpediaNucleusWeb2007}
 \selectlanguageifdefined{en}
 {DBpedia}: {A} {Nucleus} for a {Web} of {Open} {Data}~/ Sören~Auer,
   Christian~Bizer, Georgi~Kobilarov at al.~// The {Semantic} {Web}~/ edited
@@ -52,15 +207,7 @@ Concept2vec: {Metrics} for {Evaluating} {Quality} of {Embeddings} for
 \newblock Series Title: Lecture Notes in Computer Science. \BibUrl{
   http://link.springer.com/10.1007/978-3-540-76298-0_52}.
 
-\bibitem{doshi-velez_towards_2017}
-\selectlanguageifdefined{english}
-\BibEmph{Doshi-Velez,~Finale}. Towards {A} {Rigorous} {Science} of
-  {Interpretable} {Machine} {Learning}~/ Finale~Doshi-Velez, Been~Kim~//
-  \BibEmph{arXiv:1702.08608 [cs, stat]}. ---
-\newblock 2017. --- \bblmar{}. ---
-\newblock arXiv: 1702.08608. \BibUrl{ http://arxiv.org/abs/1702.08608}.
-
-\bibitem{lai_ontology-based_2020}
+\bibitem{laiOntologybasedInterpretableMachine2020}
 \selectlanguageifdefined{english}
 Ontology-based {Interpretable} {Machine} {Learning} for {Textual} {Data}~/
   Phung~Lai, NhatHai~Phan, Han~Hu et~al.~// \BibEmph{arXiv:2004.00204 [cs,
@@ -68,7 +215,7 @@ Ontology-based {Interpretable} {Machine} {Learning} for {Textual} {Data}~/
 \newblock 2020. --- \bblmar{}. ---
 \newblock arXiv: 2004.00204. \BibUrl{ http://arxiv.org/abs/2004.00204}.
 
-\bibitem{cheng_improving_2020}
+\bibitem{chengImprovingDisentangledText2020}
 \selectlanguageifdefined{english}
 Improving {Disentangled} {Text} {Representation} {Learning} with
   {Information}-{Theoretic} {Guidance}~/ Pengyu~Cheng, Martin~Renqiang~Min,
@@ -76,7 +223,7 @@ Improving {Disentangled} {Text} {Representation} {Learning} with
 \newblock 2020. --- \bbljun{}. ---
 \newblock arXiv: 2006.00693. \BibUrl{ http://arxiv.org/abs/2006.00693}.
 
-\bibitem{zhang_disentangling_2021}
+\bibitem{zhangDisentanglingRepresentationsText2021}
 \selectlanguageifdefined{english}
 \BibEmph{Zhang,~Xiongyi}. Disentangling {Representations} of {Text} by
   {Masking} {Transformers}~/ Xiongyi~Zhang, Jan-Willem~van~de~Meent,
@@ -84,14 +231,14 @@ Improving {Disentangled} {Text} {Representation} {Learning} with
 \newblock 2021. --- \bblsep{}. ---
 \newblock arXiv: 2104.07155. \BibUrl{ http://arxiv.org/abs/2104.07155}.
 
-\bibitem{bolukbasi_interpretability_2021}
+\bibitem{bolukbasiInterpretabilityIllusionBERT2021}
 \selectlanguageifdefined{english}
 An {Interpretability} {Illusion} for {BERT}~/ Tolga~Bolukbasi, Adam~Pearce,
   Ann~Yuan et~al.~// \BibEmph{arXiv:2104.07143 [cs]}. ---
 \newblock 2021. --- \bblapr{}. ---
 \newblock arXiv: 2104.07143. \BibUrl{ http://arxiv.org/abs/2104.07143}.
 
-\bibitem{shekarpour_cevo_2018}
+\bibitem{shekarpourCEVOComprehensiveEVent2018}
 \selectlanguageifdefined{english}
 {CEVO}: {Comprehensive} {EVent} {Ontology} {Enhancing} {Cognitive}
   {Annotation}~/ Saeedeh~Shekarpour, Faisal~Alshargi, Valerie~Shalin et~al.~//
@@ -100,7 +247,7 @@ An {Interpretability} {Illusion} for {BERT}~/ Tolga~Bolukbasi, Adam~Pearce,
 \newblock arXiv: 1701.05625 version: 2. \BibUrl{
   http://arxiv.org/abs/1701.05625}.
 
-\bibitem{paccanaro_learning_2000}
+\bibitem{paccanaroLearningDistributedRepresentations2000}
 \selectlanguageifdefined{english}
 \BibEmph{Paccanaro,~Alberto}. Learning distributed representations of concepts
   from relational data using linear relational embedd~/ Alberto~Paccanaro,
@@ -108,21 +255,21 @@ An {Interpretability} {Illusion} for {BERT}~/ Tolga~Bolukbasi, Adam~Pearce,
   TKDE}. ---
 \newblock 2000. --- \bbljan{}.
 
-\bibitem{he_interpretable_2021}
+\bibitem{heInterpretableNLP2021}
 \selectlanguageifdefined{english}
 \BibEmph{HE,~Shilin}. Interpretable {NLP}. ---
 \newblock 2021. --- \bblnov{}. ---
 \newblock original-date: 2019-07-11T01:35:34Z. \BibUrl{
   https://github.com/ShilinHe/interpretableNLP}.
 
-\bibitem{pruthi_learning_2020}
+\bibitem{pruthiLearningDeceiveAttentionBased2020}
 \selectlanguageifdefined{english}
 Learning to {Deceive} with {Attention}-{Based} {Explanations}~/ Danish~Pruthi,
   Mansi~Gupta, Bhuwan~Dhingra et~al.~// \BibEmph{arXiv:1909.07913 [cs]}. ---
 \newblock 2020. --- \bblapr{}. ---
 \newblock arXiv: 1909.07913. \BibUrl{ http://arxiv.org/abs/1909.07913}.
 
-\bibitem{he_deberta_2021}
+\bibitem{heDeBERTaDecodingenhancedBERT2021}
 \selectlanguageifdefined{english}
 {DeBERTa}: {Decoding}-enhanced {BERT} with {Disentangled} {Attention}~/
   Pengcheng~He, Xiaodong~Liu, Jianfeng~Gao, Weizhu~Chen~//
@@ -130,18 +277,104 @@ Learning to {Deceive} with {Attention}-{Based} {Explanations}~/ Danish~Pruthi,
 \newblock 2021. --- \bbloct{}. ---
 \newblock arXiv: 2006.03654. \BibUrl{ http://arxiv.org/abs/2006.03654}.
 
-\bibitem{wu_polyjuice_2021}
-\selectlanguageifdefined{english}
-Polyjuice: {Generating} {Counterfactuals} for {Explaining}, {Evaluating}, and
-  {Improving} {Models}~/ Tongshuang~Wu, Marco~Tulio~Ribeiro, Jeffrey~Heer,
-  Daniel~S.~Weld~// \BibEmph{arXiv:2101.00288 [cs]}. ---
-\newblock 2021. --- \bbljun{}. ---
-\newblock arXiv: 2101.00288. \BibUrl{ http://arxiv.org/abs/2101.00288}.
-
-\bibitem{molnar_interpretable_nodate}
+\bibitem{molnarInterpretableMachineLearning}
 \selectlanguageifdefined{english}
 \BibEmph{Molnar,~Christoph}. Interpretable {Machine} {Learning}~/
   Christoph~Molnar. \BibUrl{
   https://christophm.github.io/interpretable-ml-book/index.html}.
+
+\bibitem{pfauRobustSemanticInterpretability2021}
+\selectlanguageifdefined{english}
+Robust {Semantic} {Interpretability}: {Revisiting} {Concept} {Activation}
+  {Vectors}~/ Jacob~Pfau, Albert~T.~Young, Jerome~Wei et~al.~//
+  \BibEmph{arXiv:2104.02768 [cs, stat]}. ---
+\newblock 2021. --- \bblapr{}. ---
+\newblock arXiv: 2104.02768. \BibUrl{ http://arxiv.org/abs/2104.02768}.
+
+\bibitem{federCausaLMCausalModel2021}
+\selectlanguageifdefined{english}
+{CausaLM}: {Causal} {Model} {Explanation} {Through} {Counterfactual} {Language}
+  {Models}~/ Amir~Feder, Nadav~Oved, Uri~Shalit, Roi~Reichart~//
+  \BibEmph{Computational Linguistics}. ---
+\newblock 2021. --- \bblmay{}. ---
+\newblock Pp.~1--54. ---
+\newblock arXiv: 2005.13407. \BibUrl{ http://arxiv.org/abs/2005.13407}.
+
+\bibitem{baehrensHowExplainIndividual}
+\selectlanguageifdefined{en}
+How to {Explain} {Individual} {Classiﬁcation} {Decisions}~/ David~Baehrens,
+  Timon~Schroeter, Stefan~Harmeling at al. ---
+\newblock P.~29.
+
+\bibitem{zhangSurveyNeuralNetwork2021}
+\selectlanguageifdefined{english}
+A {Survey} on {Neural} {Network} {Interpretability}~/ Yu~Zhang, Peter~Tiňo,
+  Aleš~Leonardis, Ke~Tang~// \BibEmph{arXiv:2012.14261 [cs]}. ---
+\newblock 2021. --- \bbljul{}. ---
+\newblock arXiv: 2012.14261. \BibUrl{ http://arxiv.org/abs/2012.14261}.
+
+\bibitem{jiSurveyKnowledgeGraphs2021}
+\selectlanguageifdefined{english}
+A {Survey} on {Knowledge} {Graphs}: {Representation}, {Acquisition}, and
+  {Applications}~/ Shaoxiong~Ji, Shirui~Pan, Erik~Cambria et~al.~//
+  \BibEmph{IEEE Transactions on Neural Networks and Learning Systems}. ---
+\newblock 2021. ---
+\newblock Pp.~1--21. \BibUrl{ https://ieeexplore.ieee.org/document/9416312/}.
+
+\bibitem{allenInterpretingKnowledgeGraph2021}
+\selectlanguageifdefined{english}
+\BibEmph{Allen,~Carl}. Interpreting {Knowledge} {Graph} {Relation}
+  {Representation} from {Word} {Embeddings}~/ Carl~Allen, Ivana~Balažević,
+  Timothy~Hospedales~// \BibEmph{arXiv:1909.11611 [cs, stat]}. ---
+\newblock 2021. --- \bbljan{}. ---
+\newblock arXiv: 1909.11611. \BibUrl{ http://arxiv.org/abs/1909.11611}.
+
+\bibitem{belinkovInterpretabilityAnalysisNeural2020}
+\selectlanguageifdefined{english}
+\BibEmph{Belinkov,~Yonatan}. Interpretability and {Analysis} in {Neural}
+  {NLP}~/ Yonatan~Belinkov, Sebastian~Gehrmann, Ellie~Pavlick~// Proceedings of
+  the 58th {Annual} {Meeting} of the {Association} for {Computational}
+  {Linguistics}: {Tutorial} {Abstracts}. ---
+\newblock Online: Association for Computational Linguistics, 2020. ---
+  \bbljul{}. ---
+\newblock Pp.~1--5. \BibUrl{ https://aclanthology.org/2020.acl-tutorials.1}.
+
+\bibitem{belinkovAnalysisMethodsNeural2019}
+\selectlanguageifdefined{en}
+\BibEmph{Belinkov,~Yonatan}. Analysis {Methods} in {Neural} {Language}
+  {Processing}: {A} {Survey}~/ Yonatan~Belinkov, James~Glass~//
+  \BibEmph{Transactions of the Association for Computational Linguistics}. ---
+\newblock 2019. --- \bblapr{}. ---
+\newblock Vol.~7. ---
+\newblock Pp.~49--72. \BibUrl{
+  https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00254/43503/Analysis-Methods-in-Neural-Language-Processing-A}.
+
+\bibitem{guidottiSurveyMethodsExplaining2019}
+\selectlanguageifdefined{en}
+A {Survey} of {Methods} for {Explaining} {Black} {Box} {Models}~/
+  Riccardo~Guidotti, Anna~Monreale, Salvatore~Ruggieri at al.~// \BibEmph{ACM
+  Computing Surveys}. ---
+\newblock 2019. --- \bbljan{}. ---
+\newblock Vol.~51, no.~5. ---
+\newblock Pp.~1--42. \BibUrl{ https://dl.acm.org/doi/10.1145/3236009}.
+
+\bibitem{guidottiSurveyMethodsExplaining2019a}
+\selectlanguageifdefined{en}
+A {Survey} of {Methods} for {Explaining} {Black} {Box} {Models}~/
+  Riccardo~Guidotti, Anna~Monreale, Salvatore~Ruggieri at al.~// \BibEmph{ACM
+  Computing Surveys}. ---
+\newblock 2019. --- \bbljan{}. ---
+\newblock Vol.~51, no.~5. ---
+\newblock Pp.~1--42. \BibUrl{ https://dl.acm.org/doi/10.1145/3236009}.
+
+\bibitem{sahaUsingTsetlinMachine}
+\selectlanguageifdefined{en}
+\BibEmph{Saha,~Rupsa}. Using {Tsetlin} {Machine} to discover interpretable
+  rules in natural language processing applications~/ Rupsa~Saha,
+  Ole-Christoffer~Granmo, Morten~Goodwin~// \BibEmph{Expert Systems}. ---
+\newblock Vol. n/a, no. n/a. ---
+\newblock P.~e12873. ---
+\newblock \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/exsy.12873.
+  \BibUrl{ https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.12873}.
 
 \end{thebibliography}
